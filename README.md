@@ -13,16 +13,20 @@ The activation function uses sigmoid.
 Train and test sets are MNIST.
 
 To run:
+
 ——File compilation:
+
 		Training: g++ train.cpp net.cpp loadDataset.cpp DeepLearningTools.cpp -std=c++11 train -o etc.
 		Testing: g++ evaluation.cpp net.cpp loadDataset.cpp DeepLearningTools.cpp -std=c++11 -o evaluation
 		
 ——Program operation:
+
 		The two programs have wizards. Follow the wizard.
 		There are two training files in the saved folder:
 				1. only one softmax layer network, the accuracy rate of 92.23%.
 				2. a neural network consisting of 2 layers of +1 softmax is fully connected, and the accuracy is 95.03%.
 				
 ——Test environment:
+
 		Ubuntu1604(64)
 		G++ version 4.9.4
